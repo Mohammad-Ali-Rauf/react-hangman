@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-active {
+    @apply bg-[#00aaff] text-white
+}
+
+.btn-inactive {
+    @apply opacity-[0.3] pointer-events-none
+}
